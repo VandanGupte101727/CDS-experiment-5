@@ -116,7 +116,8 @@ int main()<br>
     }
 }
 
-
+OUTPUT:-<br>
+![exp6](https://github.com/VandanGupte101727/CDS-experiment-5/blob/main/Screenshot%202024-08-04%20at%201.45.55%20PM.png)
 
 
 CONCLUSION:- <br>
