@@ -7,10 +7,12 @@ SOFTWARE USED :- VS code <br>
 THEORY:-if ,else if , and `else} are basic decision-making statements in C++ that are used to regulate a program's flow based on conditions. Expressions that return Boolean values (true or false) are evaluated by these statements. If the condition is true, a block of code is executed by the `if` expression. In case the previous `if` was false, a `else if` statement is used to verify another condition after the `if`. If any of the conditions listed above are false, a block of code is executed by the `else` expression. Because of these components, branching logic is possible, enabling the program to make decisions and run various code paths on demand. When decision-making statements are used effectively, they explicitly define many execution scenarios based on changing conditions, improving program flexibility, readability, and maintainability.<br>
 
 CODE:-<br>
-#include <iostream><br>
-using namespace std;<br>
-int main()<br>
-{<br>
+
+
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
     int a,b,c;
     cout<<"if-else ladder"<<endl;<br>
     cout<<"Enter the first number: ";<br>
@@ -19,7 +21,7 @@ int main()<br>
     cin>>b;<br>
     cout<<"Enter the third number: ";<br>
     cin>>c;<br>
-// if-elif-else ladder<br>
+     // if-elif-else ladder<br>
     if ((a>b) && (a>c))<br>
     {<br>
         cout<<"First number is the largest."<<endl;<br>
@@ -37,7 +39,7 @@ int main()<br>
     cout<<endl;
     cout<<endl;
 
-//nested if<br>
+    //nested if<br>
     cout<<"nested if"<<endl;<br>
      if ((a>b) && (a>c))<br>
     {<br>
@@ -53,13 +55,13 @@ int main()<br>
         else<br>
         cout<<"Subtraction of second and third number: "<<b-c<<endl;<br>
     }<br>
-    else<br>
+    else
     {
-        if (a<b)<br>
+        if (a<b)
         cout<<"Product of third and first number: "<<c*a<<endl;<br>
-        else<br>
+        else
         cout<<"Product of third and second number: "<<c*b<<endl;<br>
-    }<br>
+    }
 
     cout<<endl;
     cout<<endl;
