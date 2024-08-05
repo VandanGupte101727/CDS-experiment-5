@@ -14,18 +14,18 @@ CODE:-<br>
     int main()
     {
     int a,b,c;
-    cout<<"if-else ladder"<<endl;<br>
-    cout<<"Enter the first number: ";<br>
-    cin>>a;<br>
-    cout<<"Enter the second number: ";<br>
-    cin>>b;<br>
-    cout<<"Enter the third number: ";<br>
-    cin>>c;<br>
-     // if-elif-else ladder<br>
-    if ((a>b) && (a>c))<br>
-    {<br>
-        cout<<"First number is the largest."<<endl;<br>
-    }<br>
+    cout<<"if-else ladder"<<endl;
+    cout<<"Enter the first number: ";
+    cin>>a;
+    cout<<"Enter the second number: ";
+    cin>>b;
+    cout<<"Enter the third number: ";
+    cin>>c;
+     // if-elif-else ladder
+    if ((a>b) && (a>c))
+    {
+        cout<<"First number is the largest."<<endl;
+    }
 
     else if ((b>a) && (b>c))
     {
@@ -39,28 +39,28 @@ CODE:-<br>
     cout<<endl;
     cout<<endl;
 
-    //nested if<br>
-    cout<<"nested if"<<endl;<br>
-     if ((a>b) && (a>c))<br>
-    {<br>
-        if (b>c)<br>
-        cout<<"Sum of first and second number: "<<a+b<<endl;<br>
-        else<br>
-        cout<<"Sum of first and third number: "<<a+c<<endl;<br>
-    }<br>
-    else if ((b>a) && (b>c))<br>
-    {<br>
-        if (a>c)<br>
-        cout<<"Subtraction of second and first number: "<<b-a<<endl;<br>
-        else<br>
-        cout<<"Subtraction of second and third number: "<<b-c<<endl;<br>
-    }<br>
+    //nested if
+    cout<<"nested if"<<endl;
+     if ((a>b) && (a>c))
+    {
+        if (b>c)
+        cout<<"Sum of first and second number: "<<a+b<<endl;
+        else
+        cout<<"Sum of first and third number: "<<a+c<<endl;
+    }
+    else if ((b>a) && (b>c))
+    {
+        if (a>c)
+        cout<<"Subtraction of second and first number: "<<b-a<<endl;
+        else
+        cout<<"Subtraction of second and third number: "<<b-c<<endl;
+    }
     else
     {
         if (a<b)
-        cout<<"Product of third and first number: "<<c*a<<endl;<br>
+        cout<<"Product of third and first number: "<<c*a<<endl;
         else
-        cout<<"Product of third and second number: "<<c*b<<endl;<br>
+        cout<<"Product of third and second number: "<<c*b<<endl;
     }
 
     cout<<endl;
